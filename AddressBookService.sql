@@ -24,4 +24,8 @@ Delete From address_Book where Firstname = 'Sireesha';
 select * from address_Book 
 
 Select City From address_Book Where Firstname = 'Anitha';
-Select State From address_Book Where Firstname = 'Narendra';
+Select State From address_Book Where Firstname = 'Narendra'
+
+
+Select COUNT(*) State From address_Book
+Select COUNT(*) City From address_Book
