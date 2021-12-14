@@ -18,3 +18,7 @@ insert into address_Book(Firstname,Lastname,address,City,State,Zip,PhoneNumber,E
 
 Update address_Book set PhoneNumber = '9848032919' where Firstname = 'NaveenChand';
 Update address_Book set Email = 'naveen997@bridgelabz.com' where Firstname = 'NaveenChand';
+
+
+Delete From address_Book where Firstname = 'Sireesha';
+select * from address_Book 
