@@ -22,3 +22,6 @@ Update address_Book set Email = 'naveen997@bridgelabz.com' where Firstname = 'Na
 
 Delete From address_Book where Firstname = 'Sireesha';
 select * from address_Book 
+
+Select City From address_Book Where Firstname = 'Anitha';
+Select State From address_Book Where Firstname = 'Narendra';
