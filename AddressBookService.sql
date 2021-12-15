@@ -32,3 +32,11 @@ Select COUNT(*) City From address_Book
 
 
 Select * From address_Book Where City = 'Tenali' Order By Firstname
+
+
+Alter Table address_Book Add ContactType varchar(27);
+Update address_Book Set ContactType = 'Family' Where Firstname = 'Anitha';
+Update address_Book Set ContactType = 'Family' Where PhoneNumber = '8934563832';
+Update address_Book Set ContactType = 'Friends' Where Lastname = 'Machineni';
+Update address_Book Set ContactType = 'Friends' Where Email = 'prabhu999@bridgelabz.com';
+Update address_Book Set ContactType = 'Profession' Where Firstname = 'NaveenChand';
