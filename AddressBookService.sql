@@ -29,3 +29,6 @@ Select State From address_Book Where Firstname = 'Narendra'
 
 Select COUNT(*) State From address_Book
 Select COUNT(*) City From address_Book
+
+
+Select * From address_Book Where City = 'Tenali' Order By Firstname
