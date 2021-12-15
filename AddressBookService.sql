@@ -40,3 +40,6 @@ Update address_Book Set ContactType = 'Family' Where PhoneNumber = '8934563832';
 Update address_Book Set ContactType = 'Friends' Where Lastname = 'Machineni';
 Update address_Book Set ContactType = 'Friends' Where Email = 'prabhu999@bridgelabz.com';
 Update address_Book Set ContactType = 'Profession' Where Firstname = 'NaveenChand';
+
+
+Select ContactType, Count(*) as CountNumber From address_Book Group By ContactType;
